@@ -3,8 +3,8 @@ using namespace std;
 void fifth() {
 	setlocale(LC_ALL, "RUS");
 	int year, centuries;
-	cout << "Ââåäèòå ãîä = ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð³Ð¾Ð´ = ";
 	cin >> year;
 	centuries = (year - 1) / 100 + 1;
-	cout << centuries << " ñòîëåòèå\n";
+	cout << centuries << " ÑÑ‚Ð¾Ð»ÐµÑ‚Ð¸Ðµ\n";
 }
