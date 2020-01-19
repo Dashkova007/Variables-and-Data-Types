@@ -4,9 +4,9 @@ void fourth() {
 	setlocale(LC_ALL, "RUS");
 	float number;
 	int penny, hryvnia;
-	cout << "Ââåäèòå ÷èñëî = ";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ = ";
 	cin >> number;
 	hryvnia = int(number);
 	penny = (number - hryvnia) * 100;
-	cout << hryvnia << " ãğí. " << penny << " êîï.\n";
+	cout << hryvnia << " Ğ³Ñ€Ğ½. " << penny << " ĞºĞ¾Ğ¿.\n";
 }
